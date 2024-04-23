@@ -7,5 +7,5 @@ import logging as log
 def test_healthcheck():
     log.info("Running healthcheck")
 
-    assert True
+
 
