@@ -11,9 +11,9 @@ RUN apk update && \
     rm allure-2.13.8.tgz
 
 COPY ./ ./automation
-COPY ./setup.py ./automation
+COPY ./setup.py /automation
 
 WORKDIR /automation
 
-RUN python3 setup.py install
 
+RUN python3 setup.py install
