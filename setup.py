@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-setup(version="v2.0",
+setup(version="2.0",
       packages=find_packages(),
       install_requires=[
           "pytest==8.1.1",

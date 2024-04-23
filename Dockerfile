@@ -10,7 +10,7 @@ RUN apk update && \
     ln -s /opt/allure-2.13.8/bin/allure /usr/bin/allure && \
     rm allure-2.13.8.tgz
 
-COPY ./ ./automation
+COPY ./ /automation
 COPY ./setup.py /automation
 
 WORKDIR /automation
