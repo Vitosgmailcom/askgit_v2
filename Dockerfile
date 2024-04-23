@@ -14,5 +14,4 @@ WORKDIR /automation
 COPY ./ /automation
 COPY ./requirements.txt /automation
 
-RUN pip3 install -r requirements.txt # && playwright install && sudo apt-get install libevent-2.1-7  (install browsers for playwright)
-
+RUN pip3 install -r requirements.txt
