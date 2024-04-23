@@ -1,0 +1,17 @@
+version: "3.8"
+
+services:
+  tests:
+    image: python:3.12.0a4-alpine3.17
+    build:
+      context: .
+      dockerfile: Dockerfile
+
+    volumes:
+      - ./:./automation
+
+    command: /bin/sh -c "ls -la && python -m health_check --alluredir=allure-results"
+
+#    environment:
+#      - DB_USER=${DB_USER}
+#      -

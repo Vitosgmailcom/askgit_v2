@@ -1,0 +1,8 @@
+build
+dist
+UNKNOWN.egg-info
+*.iml
+.evn
+.idea
+allure-results
+venv_v2
