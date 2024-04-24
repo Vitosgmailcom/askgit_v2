@@ -1,0 +1,26 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "57f598e42cbd",
+    "children" : [ {
+      "name" : "1-MainThread",
+      "children" : [ {
+        "name" : "Health Check",
+        "uid" : "6d1cd327b39e8ad8",
+        "parentUid" : "ecba420fca32bbdc03e8e995c88cba62",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713922284845,
+          "stop" : 1713922284845,
+          "duration" : 0
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      } ],
+      "uid" : "ecba420fca32bbdc03e8e995c88cba62"
+    } ],
+    "uid" : "ef48cbaf4a1e65aed7f79339635ba788"
+  } ],
+  "name" : "timeline"
+}
