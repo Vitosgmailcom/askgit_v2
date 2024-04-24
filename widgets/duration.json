@@ -1,10 +1,20 @@
 [ {
-  "uid" : "21d89cf6036ed7b1",
-  "name" : "Health Check",
+  "uid" : "377cc4ebb010430b",
+  "name" : "DB connection healthcheck",
   "time" : {
-    "start" : 1713922899554,
-    "stop" : 1713922899555,
-    "duration" : 1
+    "start" : 1713926384670,
+    "stop" : 1713926384848,
+    "duration" : 178
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "61e3f224c6654edf",
+  "name" : "Framework healthcheck",
+  "time" : {
+    "start" : 1713926384668,
+    "stop" : 1713926384668,
+    "duration" : 0
   },
   "status" : "passed",
   "severity" : "normal"

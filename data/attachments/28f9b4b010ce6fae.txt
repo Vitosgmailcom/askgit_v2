@@ -1,0 +1,2 @@
+INFO     root:test_healthcheck.py:14 Running healthcheck
+DEBUG    root:test_healthcheck.py:15 Pass

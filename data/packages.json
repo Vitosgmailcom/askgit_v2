@@ -3,14 +3,27 @@
   "children" : [ {
     "name" : "tests.health_check.test_healthcheck",
     "children" : [ {
-      "name" : "Health Check",
-      "uid" : "21d89cf6036ed7b1",
+      "name" : "Framework healthcheck",
+      "uid" : "61e3f224c6654edf",
       "parentUid" : "d633e46b15529f9d62481724aa5a73c3",
       "status" : "passed",
       "time" : {
-        "start" : 1713922899554,
-        "stop" : 1713922899555,
-        "duration" : 1
+        "start" : 1713926384668,
+        "stop" : 1713926384668,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "DB connection healthcheck",
+      "uid" : "377cc4ebb010430b",
+      "parentUid" : "d633e46b15529f9d62481724aa5a73c3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713926384670,
+        "stop" : 1713926384848,
+        "duration" : 178
       },
       "flaky" : false,
       "newFailed" : false,
