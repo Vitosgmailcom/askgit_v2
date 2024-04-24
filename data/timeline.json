@@ -1,39 +1,52 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "0d16724b2d93",
+    "name" : "2730a8b00acc",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
         "name" : "DB connection healthcheck",
-        "uid" : "6aa1dd42b4cb63f1",
-        "parentUid" : "add19996b98bdf1ff3a85b3de6127563",
+        "uid" : "95f12c3cd9721277",
+        "parentUid" : "00d79f1ac32d394491123c7dca390f91",
         "status" : "passed",
         "time" : {
-          "start" : 1713926804169,
-          "stop" : 1713926804211,
-          "duration" : 42
+          "start" : 1713931475036,
+          "stop" : 1713931475057,
+          "duration" : 21
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
         "name" : "Framework healthcheck",
-        "uid" : "56f7f0cab58e4c4d",
-        "parentUid" : "add19996b98bdf1ff3a85b3de6127563",
+        "uid" : "b54003d35749f25e",
+        "parentUid" : "00d79f1ac32d394491123c7dca390f91",
         "status" : "passed",
         "time" : {
-          "start" : 1713926804167,
-          "stop" : 1713926804167,
-          "duration" : 0
+          "start" : 1713931475033,
+          "stop" : 1713931475034,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ ]
+      }, {
+        "name" : "API connection healthcheck",
+        "uid" : "7c6e8445a58c8890",
+        "parentUid" : "00d79f1ac32d394491123c7dca390f91",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713931475058,
+          "stop" : 1713931475107,
+          "duration" : 49
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "add19996b98bdf1ff3a85b3de6127563"
+      "uid" : "00d79f1ac32d394491123c7dca390f91"
     } ],
-    "uid" : "ec6b61ae6612d30a931d30f5c16f3a1b"
+    "uid" : "83cb42cedb9f81de7f2ca93d903e9a32"
   } ],
   "name" : "timeline"
 }

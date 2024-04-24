@@ -2,26 +2,39 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Framework healthcheck",
-    "uid" : "56f7f0cab58e4c4d",
+    "uid" : "b54003d35749f25e",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1713926804167,
-      "stop" : 1713926804167,
-      "duration" : 0
+      "start" : 1713931475033,
+      "stop" : 1713931475034,
+      "duration" : 1
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ ]
   }, {
     "name" : "DB connection healthcheck",
-    "uid" : "6aa1dd42b4cb63f1",
+    "uid" : "95f12c3cd9721277",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1713926804169,
-      "stop" : 1713926804211,
-      "duration" : 42
+      "start" : 1713931475036,
+      "stop" : 1713931475057,
+      "duration" : 21
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "API connection healthcheck",
+    "uid" : "7c6e8445a58c8890",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1713931475058,
+      "stop" : 1713931475107,
+      "duration" : 49
     },
     "flaky" : false,
     "newFailed" : false,

@@ -1,20 +1,30 @@
 [ {
-  "uid" : "56f7f0cab58e4c4d",
+  "uid" : "b54003d35749f25e",
   "name" : "Framework healthcheck",
   "time" : {
-    "start" : 1713926804167,
-    "stop" : 1713926804167,
-    "duration" : 0
+    "start" : 1713931475033,
+    "stop" : 1713931475034,
+    "duration" : 1
   },
   "status" : "passed",
   "severity" : "normal"
 }, {
-  "uid" : "6aa1dd42b4cb63f1",
+  "uid" : "7c6e8445a58c8890",
+  "name" : "API connection healthcheck",
+  "time" : {
+    "start" : 1713931475058,
+    "stop" : 1713931475107,
+    "duration" : 49
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "95f12c3cd9721277",
   "name" : "DB connection healthcheck",
   "time" : {
-    "start" : 1713926804169,
-    "stop" : 1713926804211,
-    "duration" : 42
+    "start" : 1713931475036,
+    "stop" : 1713931475057,
+    "duration" : 21
   },
   "status" : "passed",
   "severity" : "normal"

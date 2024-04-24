@@ -1,12 +1,12 @@
 {
-  "uid" : "6aa1dd42b4cb63f1",
-  "name" : "DB connection healthcheck",
-  "fullName" : "tests.health_check.test_healthcheck.TestHealthCheck#test_db_connection_by_retriving_tandom_user",
-  "historyId" : "8684b7de3b926d2d1edadc2114b83c7e",
+  "uid" : "b54003d35749f25e",
+  "name" : "Framework healthcheck",
+  "fullName" : "tests.health_check.test_healthcheck.TestHealthCheck#test_healthcheck",
+  "historyId" : "2589ba69ff603ff6d2bee8838d374bf8",
   "time" : {
-    "start" : 1713926804169,
-    "stop" : 1713926804211,
-    "duration" : 42
+    "start" : 1713931475033,
+    "stop" : 1713931475034,
+    "duration" : 1
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713926804169,
-      "stop" : 1713926804169,
+      "start" : 1713931475033,
+      "stop" : 1713931475033,
       "duration" : 0
     },
     "status" : "passed",
@@ -24,13 +24,29 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "61945ed0a8df9439",
+      "name" : "log",
+      "source" : "61945ed0a8df9439.txt",
+      "type" : "text/plain",
+      "size" : 98
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true,
+    "stepsCount" : 0
+  },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "hc2"
+    "value" : "hc1"
   }, {
     "name" : "tag",
     "value" : "healthcheck"
@@ -45,7 +61,7 @@
     "value" : "TestHealthCheck"
   }, {
     "name" : "host",
-    "value" : "0d16724b2d93"
+    "value" : "2730a8b00acc"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -72,34 +88,41 @@
     "categories" : [ ],
     "history" : {
       "statistic" : {
-        "failed" : 1,
+        "failed" : 0,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 2,
+        "passed" : 4,
         "unknown" : 0,
-        "total" : 3
+        "total" : 4
       },
       "items" : [ {
-        "uid" : "3cac890517fc9750",
-        "status" : "failed",
-        "statusDetails" : "AssertionError: assert 'APG777' == 'APG779'\n  \n  - APG779\n  ?      ^\n  + APG777\n  ?      ^",
-        "time" : {
-          "start" : 1713926567627,
-          "stop" : 1713926567984,
-          "duration" : 357
-        }
-      }, {
-        "uid" : "377cc4ebb010430b",
+        "uid" : "56f7f0cab58e4c4d",
         "status" : "passed",
         "time" : {
-          "start" : 1713926384670,
-          "stop" : 1713926384848,
-          "duration" : 178
+          "start" : 1713926804167,
+          "stop" : 1713926804167,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "78039cd2f809ad9",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713926567625,
+          "stop" : 1713926567625,
+          "duration" : 0
+        }
+      }, {
+        "uid" : "61e3f224c6654edf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713926384668,
+          "stop" : 1713926384668,
+          "duration" : 0
         }
       } ]
     },
-    "tags" : [ "healthcheck", "hc2" ]
+    "tags" : [ "healthcheck", "hc1" ]
   },
-  "source" : "6aa1dd42b4cb63f1.json",
+  "source" : "b54003d35749f25e.json",
   "parameterValues" : [ ]
 }

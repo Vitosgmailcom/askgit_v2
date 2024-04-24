@@ -1,3 +1,4 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Wed Apr 24 02:46:44 GMT 2024","Wed Apr 24 02:46:44 GMT 2024","0","tests.health_check","test_healthcheck","TestHealthCheck","","","Framework healthcheck",""
-"passed","Wed Apr 24 02:46:44 GMT 2024","Wed Apr 24 02:46:44 GMT 2024","42","tests.health_check","test_healthcheck","TestHealthCheck","","","DB connection healthcheck",""
+"passed","Wed Apr 24 04:04:35 GMT 2024","Wed Apr 24 04:04:35 GMT 2024","49","tests.health_check","test_healthcheck","TestHealthCheck","","","API connection healthcheck",""
+"passed","Wed Apr 24 04:04:35 GMT 2024","Wed Apr 24 04:04:35 GMT 2024","21","tests.health_check","test_healthcheck","TestHealthCheck","","","DB connection healthcheck",""
+"passed","Wed Apr 24 04:04:35 GMT 2024","Wed Apr 24 04:04:35 GMT 2024","1","tests.health_check","test_healthcheck","TestHealthCheck","","","Framework healthcheck",""

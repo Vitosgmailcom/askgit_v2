@@ -1,12 +1,12 @@
 {
-  "uid" : "56f7f0cab58e4c4d",
-  "name" : "Framework healthcheck",
-  "fullName" : "tests.health_check.test_healthcheck.TestHealthCheck#test_healthcheck",
-  "historyId" : "2589ba69ff603ff6d2bee8838d374bf8",
+  "uid" : "7c6e8445a58c8890",
+  "name" : "API connection healthcheck",
+  "fullName" : "tests.health_check.test_healthcheck.TestHealthCheck#test_API_connection",
+  "historyId" : "360ec5b866ff103289ad8061773c94ad",
   "time" : {
-    "start" : 1713926804167,
-    "stop" : 1713926804167,
-    "duration" : 0
+    "start" : 1713931475058,
+    "stop" : 1713931475107,
+    "duration" : 49
   },
   "status" : "passed",
   "flaky" : false,
@@ -14,8 +14,8 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713926804166,
-      "stop" : 1713926804166,
+      "start" : 1713931475058,
+      "stop" : 1713931475058,
       "duration" : 0
     },
     "status" : "passed",
@@ -24,29 +24,29 @@
     "parameters" : [ ],
     "attachmentsCount" : 0,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : false
+    "hasContent" : false,
+    "stepsCount" : 0
   } ],
   "testStage" : {
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "abe79215475d4f69",
+      "uid" : "383889ec0d7fcf64",
       "name" : "log",
-      "source" : "abe79215475d4f69.txt",
+      "source" : "383889ec0d7fcf64.txt",
       "type" : "text/plain",
-      "size" : 98
+      "size" : 339
     } ],
     "parameters" : [ ],
     "attachmentsCount" : 1,
     "shouldDisplayMessage" : false,
-    "stepsCount" : 0,
-    "hasContent" : true
+    "hasContent" : true,
+    "stepsCount" : 0
   },
   "afterStages" : [ ],
   "labels" : [ {
     "name" : "tag",
-    "value" : "hc1"
+    "value" : "hc3"
   }, {
     "name" : "tag",
     "value" : "healthcheck"
@@ -61,7 +61,7 @@
     "value" : "TestHealthCheck"
   }, {
     "name" : "host",
-    "value" : "0d16724b2d93"
+    "value" : "2730a8b00acc"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -86,35 +86,8 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
-    "history" : {
-      "statistic" : {
-        "failed" : 0,
-        "broken" : 0,
-        "skipped" : 0,
-        "passed" : 3,
-        "unknown" : 0,
-        "total" : 3
-      },
-      "items" : [ {
-        "uid" : "78039cd2f809ad9",
-        "status" : "passed",
-        "time" : {
-          "start" : 1713926567625,
-          "stop" : 1713926567625,
-          "duration" : 0
-        }
-      }, {
-        "uid" : "61e3f224c6654edf",
-        "status" : "passed",
-        "time" : {
-          "start" : 1713926384668,
-          "stop" : 1713926384668,
-          "duration" : 0
-        }
-      } ]
-    },
-    "tags" : [ "healthcheck", "hc1" ]
+    "tags" : [ "healthcheck", "hc3" ]
   },
-  "source" : "56f7f0cab58e4c4d.json",
+  "source" : "7c6e8445a58c8890.json",
   "parameterValues" : [ ]
 }

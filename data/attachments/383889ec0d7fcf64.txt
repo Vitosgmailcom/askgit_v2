@@ -1,0 +1,3 @@
+DEBUG    urllib3.connectionpool:connectionpool.py:244 Starting new HTTP connection (1): ask-stage.portnov.com:80
+DEBUG    urllib3.connectionpool:connectionpool.py:549 http://ask-stage.portnov.com:80 "POST /api/v1/sign-in HTTP/1.1" 404 95
+DEBUG    root:test_healthcheck.py:28 Authentication failed. User not found or password does not match
