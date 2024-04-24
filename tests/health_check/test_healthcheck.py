@@ -18,7 +18,7 @@ class TestHealthCheck(BaseTest):
     @pytest.mark.hc2
     def test_db_connection_by_retriving_tandom_user(self):
         res_db = self.get_from_DB.get_random_user(self.SQL.get_random_user(), 1)
-        assert res_db[0]['group'] == 'APG777'
+        assert res_db[0]['group'] == 'APG779'
 
 
 
