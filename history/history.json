@@ -4,11 +4,19 @@
       "failed" : 0,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "78039cd2f809ad9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1713926567625,
+        "stop" : 1713926567625,
+        "duration" : 0
+      }
+    }, {
       "uid" : "61e3f224c6654edf",
       "status" : "passed",
       "time" : {
@@ -55,14 +63,23 @@
   },
   "8684b7de3b926d2d1edadc2114b83c7e" : {
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
       "passed" : 1,
       "unknown" : 0,
-      "total" : 1
+      "total" : 2
     },
     "items" : [ {
+      "uid" : "3cac890517fc9750",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert 'APG777' == 'APG779'\n  \n  - APG779\n  ?      ^\n  + APG777\n  ?      ^",
+      "time" : {
+        "start" : 1713926567627,
+        "stop" : 1713926567984,
+        "duration" : 357
+      }
+    }, {
       "uid" : "377cc4ebb010430b",
       "status" : "passed",
       "time" : {

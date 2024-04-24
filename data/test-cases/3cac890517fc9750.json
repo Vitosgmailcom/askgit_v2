@@ -1,0 +1,102 @@
+{
+  "uid" : "3cac890517fc9750",
+  "name" : "DB connection healthcheck",
+  "fullName" : "tests.health_check.test_healthcheck.TestHealthCheck#test_db_connection_by_retriving_tandom_user",
+  "historyId" : "8684b7de3b926d2d1edadc2114b83c7e",
+  "time" : {
+    "start" : 1713926567627,
+    "stop" : 1713926567984,
+    "duration" : 357
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 'APG777' == 'APG779'\n  \n  - APG779\n  ?      ^\n  + APG777\n  ?      ^",
+  "statusTrace" : "self = <tests.health_check.test_healthcheck.TestHealthCheck object at 0x7fc365c7c620>\n\n    @allure.title(\"DB connection healthcheck\")\n    @pytest.mark.hc2\n    def test_db_connection_by_retriving_tandom_user(self):\n        res_db = self.get_from_DB.get_random_user(self.SQL.get_random_user(), 1)\n>       assert res_db[0]['group'] == 'APG779'\nE       AssertionError: assert 'APG777' == 'APG779'\nE         \nE         - APG779\nE         ?      ^\nE         + APG777\nE         ?      ^\n\ntests/health_check/test_healthcheck.py:21: AssertionError",
+  "flaky" : false,
+  "newFailed" : true,
+  "beforeStages" : [ {
+    "name" : "setup",
+    "time" : {
+      "start" : 1713926567627,
+      "stop" : 1713926567627,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "tag",
+    "value" : "hc2"
+  }, {
+    "name" : "tag",
+    "value" : "healthcheck"
+  }, {
+    "name" : "parentSuite",
+    "value" : "tests.health_check"
+  }, {
+    "name" : "suite",
+    "value" : "test_healthcheck"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestHealthCheck"
+  }, {
+    "name" : "host",
+    "value" : "5e481c1edaf8"
+  }, {
+    "name" : "thread",
+    "value" : "1-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "tests.health_check.test_healthcheck"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "history" : {
+      "statistic" : {
+        "failed" : 1,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 1,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "377cc4ebb010430b",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713926384670,
+          "stop" : 1713926384848,
+          "duration" : 178
+        }
+      } ]
+    },
+    "tags" : [ "healthcheck", "hc2" ]
+  },
+  "source" : "3cac890517fc9750.json",
+  "parameterValues" : [ ]
+}

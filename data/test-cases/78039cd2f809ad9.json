@@ -1,11 +1,11 @@
 {
-  "uid" : "61e3f224c6654edf",
+  "uid" : "78039cd2f809ad9",
   "name" : "Framework healthcheck",
   "fullName" : "tests.health_check.test_healthcheck.TestHealthCheck#test_healthcheck",
   "historyId" : "2589ba69ff603ff6d2bee8838d374bf8",
   "time" : {
-    "start" : 1713926384668,
-    "stop" : 1713926384668,
+    "start" : 1713926567625,
+    "stop" : 1713926567625,
     "duration" : 0
   },
   "status" : "passed",
@@ -14,9 +14,9 @@
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713926384667,
-      "stop" : 1713926384668,
-      "duration" : 1
+      "start" : 1713926567624,
+      "stop" : 1713926567624,
+      "duration" : 0
     },
     "status" : "passed",
     "steps" : [ ],
@@ -31,9 +31,9 @@
     "status" : "passed",
     "steps" : [ ],
     "attachments" : [ {
-      "uid" : "28f9b4b010ce6fae",
+      "uid" : "ac1a3e56867b134b",
       "name" : "log",
-      "source" : "28f9b4b010ce6fae.txt",
+      "source" : "ac1a3e56867b134b.txt",
       "type" : "text/plain",
       "size" : 98
     } ],
@@ -61,7 +61,7 @@
     "value" : "TestHealthCheck"
   }, {
     "name" : "host",
-    "value" : "12133a4f9929"
+    "value" : "5e481c1edaf8"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -86,8 +86,27 @@
     "severity" : "normal",
     "retries" : [ ],
     "categories" : [ ],
+    "history" : {
+      "statistic" : {
+        "failed" : 0,
+        "broken" : 0,
+        "skipped" : 0,
+        "passed" : 2,
+        "unknown" : 0,
+        "total" : 2
+      },
+      "items" : [ {
+        "uid" : "61e3f224c6654edf",
+        "status" : "passed",
+        "time" : {
+          "start" : 1713926384668,
+          "stop" : 1713926384668,
+          "duration" : 0
+        }
+      } ]
+    },
     "tags" : [ "healthcheck", "hc1" ]
   },
-  "source" : "61e3f224c6654edf.json",
+  "source" : "78039cd2f809ad9.json",
   "parameterValues" : [ ]
 }
