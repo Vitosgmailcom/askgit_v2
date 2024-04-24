@@ -1,1 +1,0 @@
-INFO     root:test_healthcheck.py:9 Running healthcheck
