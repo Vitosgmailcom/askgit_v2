@@ -7,6 +7,7 @@ import logging as log
 @pytest.mark.healthcheck
 def test_healthcheck():
     log.info("Running healthcheck")
+    log.debug("Pass")
 
 
 
