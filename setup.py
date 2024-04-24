@@ -9,6 +9,6 @@ setup(version="2.0",
           "allure-pytest==2.13.5",
           "chardet==5.2.0",
           "python-dotenv==1.0.1",
-          #"pytest-playwright==0.4.4"
+          "pytest-playwright==0.4.4"
       ]
       )
