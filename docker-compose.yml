@@ -12,6 +12,9 @@ services:
 
     command: /bin/sh -c "ls -la && pytest -m healthcheck --alluredir=allure-results"
 
-#    environment:
-#      - DB_USER=${DB_USER}
-#      -
+    environment:
+      - DB_USER=${DB_USER}
+      - DB_PASS=${DB_PASS}
+      - DB_NAME=${DB_NAME}
+      - DB_PORT=${DB_PORT}
+      - DB_HOST=${DB_HOST}

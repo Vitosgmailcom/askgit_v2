@@ -6,3 +6,4 @@ UNKNOWN.egg-info
 .idea
 allure-results
 venv_v2
+tests.egg-info
