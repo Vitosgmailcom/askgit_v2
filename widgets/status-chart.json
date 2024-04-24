@@ -1,20 +1,20 @@
 [ {
-  "uid" : "3cac890517fc9750",
-  "name" : "DB connection healthcheck",
-  "time" : {
-    "start" : 1713926567627,
-    "stop" : 1713926567984,
-    "duration" : 357
-  },
-  "status" : "failed",
-  "severity" : "normal"
-}, {
-  "uid" : "78039cd2f809ad9",
+  "uid" : "56f7f0cab58e4c4d",
   "name" : "Framework healthcheck",
   "time" : {
-    "start" : 1713926567625,
-    "stop" : 1713926567625,
+    "start" : 1713926804167,
+    "stop" : 1713926804167,
     "duration" : 0
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6aa1dd42b4cb63f1",
+  "name" : "DB connection healthcheck",
+  "time" : {
+    "start" : 1713926804169,
+    "stop" : 1713926804211,
+    "duration" : 42
   },
   "status" : "passed",
   "severity" : "normal"

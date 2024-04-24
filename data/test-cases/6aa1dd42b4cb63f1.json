@@ -1,23 +1,21 @@
 {
-  "uid" : "3cac890517fc9750",
+  "uid" : "6aa1dd42b4cb63f1",
   "name" : "DB connection healthcheck",
   "fullName" : "tests.health_check.test_healthcheck.TestHealthCheck#test_db_connection_by_retriving_tandom_user",
   "historyId" : "8684b7de3b926d2d1edadc2114b83c7e",
   "time" : {
-    "start" : 1713926567627,
-    "stop" : 1713926567984,
-    "duration" : 357
+    "start" : 1713926804169,
+    "stop" : 1713926804211,
+    "duration" : 42
   },
-  "status" : "failed",
-  "statusMessage" : "AssertionError: assert 'APG777' == 'APG779'\n  \n  - APG779\n  ?      ^\n  + APG777\n  ?      ^",
-  "statusTrace" : "self = <tests.health_check.test_healthcheck.TestHealthCheck object at 0x7fc365c7c620>\n\n    @allure.title(\"DB connection healthcheck\")\n    @pytest.mark.hc2\n    def test_db_connection_by_retriving_tandom_user(self):\n        res_db = self.get_from_DB.get_random_user(self.SQL.get_random_user(), 1)\n>       assert res_db[0]['group'] == 'APG779'\nE       AssertionError: assert 'APG777' == 'APG779'\nE         \nE         - APG779\nE         ?      ^\nE         + APG777\nE         ?      ^\n\ntests/health_check/test_healthcheck.py:21: AssertionError",
+  "status" : "passed",
   "flaky" : false,
-  "newFailed" : true,
+  "newFailed" : false,
   "beforeStages" : [ {
     "name" : "setup",
     "time" : {
-      "start" : 1713926567627,
-      "stop" : 1713926567627,
+      "start" : 1713926804169,
+      "stop" : 1713926804169,
       "duration" : 0
     },
     "status" : "passed",
@@ -47,7 +45,7 @@
     "value" : "TestHealthCheck"
   }, {
     "name" : "host",
-    "value" : "5e481c1edaf8"
+    "value" : "0d16724b2d93"
   }, {
     "name" : "thread",
     "value" : "1-MainThread"
@@ -71,21 +69,26 @@
   "extra" : {
     "severity" : "normal",
     "retries" : [ ],
-    "categories" : [ {
-      "name" : "Product defects",
-      "matchedStatuses" : [ ],
-      "flaky" : false
-    } ],
+    "categories" : [ ],
     "history" : {
       "statistic" : {
         "failed" : 1,
         "broken" : 0,
         "skipped" : 0,
-        "passed" : 1,
+        "passed" : 2,
         "unknown" : 0,
-        "total" : 2
+        "total" : 3
       },
       "items" : [ {
+        "uid" : "3cac890517fc9750",
+        "status" : "failed",
+        "statusDetails" : "AssertionError: assert 'APG777' == 'APG779'\n  \n  - APG779\n  ?      ^\n  + APG777\n  ?      ^",
+        "time" : {
+          "start" : 1713926567627,
+          "stop" : 1713926567984,
+          "duration" : 357
+        }
+      }, {
         "uid" : "377cc4ebb010430b",
         "status" : "passed",
         "time" : {
@@ -97,6 +100,6 @@
     },
     "tags" : [ "healthcheck", "hc2" ]
   },
-  "source" : "3cac890517fc9750.json",
+  "source" : "6aa1dd42b4cb63f1.json",
   "parameterValues" : [ ]
 }

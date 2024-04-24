@@ -1,39 +1,39 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
-    "name" : "5e481c1edaf8",
+    "name" : "0d16724b2d93",
     "children" : [ {
       "name" : "1-MainThread",
       "children" : [ {
-        "name" : "Framework healthcheck",
-        "uid" : "78039cd2f809ad9",
-        "parentUid" : "f550138ff43dcac88dc077744d6eb6cd",
+        "name" : "DB connection healthcheck",
+        "uid" : "6aa1dd42b4cb63f1",
+        "parentUid" : "add19996b98bdf1ff3a85b3de6127563",
         "status" : "passed",
         "time" : {
-          "start" : 1713926567625,
-          "stop" : 1713926567625,
-          "duration" : 0
+          "start" : 1713926804169,
+          "stop" : 1713926804211,
+          "duration" : 42
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ ]
       }, {
-        "name" : "DB connection healthcheck",
-        "uid" : "3cac890517fc9750",
-        "parentUid" : "f550138ff43dcac88dc077744d6eb6cd",
-        "status" : "failed",
+        "name" : "Framework healthcheck",
+        "uid" : "56f7f0cab58e4c4d",
+        "parentUid" : "add19996b98bdf1ff3a85b3de6127563",
+        "status" : "passed",
         "time" : {
-          "start" : 1713926567627,
-          "stop" : 1713926567984,
-          "duration" : 357
+          "start" : 1713926804167,
+          "stop" : 1713926804167,
+          "duration" : 0
         },
         "flaky" : false,
-        "newFailed" : true,
+        "newFailed" : false,
         "parameters" : [ ]
       } ],
-      "uid" : "f550138ff43dcac88dc077744d6eb6cd"
+      "uid" : "add19996b98bdf1ff3a85b3de6127563"
     } ],
-    "uid" : "af719e8b50a53bdbb03eb761a0763643"
+    "uid" : "ec6b61ae6612d30a931d30f5c16f3a1b"
   } ],
   "name" : "timeline"
 }
